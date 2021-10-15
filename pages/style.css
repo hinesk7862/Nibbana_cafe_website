@@ -1,0 +1,190 @@
+/*Style sheet for Nibbana Cafe Remake website*/
+/* em = some scalar multiple of the parent element's font size*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    font-family:'Open Sans', serif;
+    font-weight: bold;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+.tab-options{
+    text-transform:uppercase;
+    display:flex;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-size: 7.5px;
+    align-items: center;
+    /*border: 2px solid black;*/
+}
+.tab, .contact-tab{
+    color: rgb(60, 58, 70);
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.contact-tab{
+    border: 2px solid rgb(235, 227, 219);
+    background:rgb(235, 227, 219);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:12px;
+    padding-right: 12px;
+}
+.website-header{
+    display:flex;
+    gap: 8px;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 20px;
+    min-height: 100px;
+    align-items: center;
+    /*border: 2px solid black;*/
+}
+.logo-container{
+    display:inline-flex;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+}
+.logo-1{
+    width: 80%; /* width of container */
+    height: 75px; /* height of container */
+    margin-right: 30px;
+    /*color: rgb(90, 88, 100);*/
+    /*border: 2px solid black;*/
+}
+.logo-2{
+    align-items: center;
+    width: 70%; /* width of container */
+    height: 60px; /* height of container */
+    /*color: rgb(90, 88, 100);*/
+    /*border: 2px solid black;*/
+}
+.spacing{
+    flex-basis: 50%;
+    flex: 1;
+    /*border: 2px solid black;*/
+}
+.front-page-image{
+    width: 100%; /* width of container */
+    height: 550px; /* height of container */
+    object-fit: cover;
+    object-position: 50% 60%; 
+}
+.about-us, .community{
+    margin-top: 90px;
+    justify-content: center;
+    align-content: center;
+}
+.about-text, .heading-about-text, .community, .food-drive{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.heading-about-text{
+    margin-top: 50px;
+    margin-bottom: 6px;
+}
+p{
+    margin-left:auto;
+    margin-right:auto;  
+    width: 60vw;
+    text-align: center;
+    color:rgb(100, 98, 110);
+    font-size: 16px;
+    font-weight: 520;
+}
+
+.section-header, .header{
+    height: 70px;
+    width: 150px;
+    border: 2px solid black;
+    line-height: 42px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+hr{
+    width: 30vw;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-size: 16px;
+}
+.handles{
+    margin-top: 8px;
+    height:27px;
+    width: 100px;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.facebook-icon:hover{
+    transform: scale(1.25);
+}
+.insta-icon:hover{
+    transform: scale(1.25);
+}
+.food-drive-photo{
+    width: 80%; /* width of container */
+    height: 1200px; /* height of container */
+    object-fit: cover;
+    object-position: 5% 90%; 
+}
+.header{
+    width: 280px;
+    font-weight: 550;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+.community{
+    margin-top: 100px;
+}
+.description{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-weight: 520;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 30px;
+    width:100%;
+    height: 20vh;
+    background:rgb(215, 207, 199);
+    display: flex;
+}
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+.hours{
+    margin-right: 5vw;
+    margin-left: 2vw;
+    min-width: 180px;
+}
+.address{
+    margin-right: 5vw;
+}
+.footer-logo{
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right:2vw;
+    height: 15vh;
+}
+
+
+

@@ -12,10 +12,8 @@ body{
 .tab-options{
     text-transform:uppercase;
     display:flex;
-    /*font-family: 'Courier New', Courier, monospace;*/
     font-size: 7.5px;
     align-items: center;
-    /*border: 2px solid black;*/
 }
 .tab, .contact-tab{
     color: rgb(60, 58, 70);
@@ -184,6 +182,10 @@ h5{
     margin-left: auto;
     margin-right:2vw;
     height: 15vh;
+}
+.link-button{
+    color: rgb(60, 58, 70);
+    text-decoration: none
 }
 
 
